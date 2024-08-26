@@ -35,5 +35,13 @@
 
 
 .user-component_column:last-child {
-    rgba(0, 0, 0, 0.5);
+    rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.user-component_time {
+    margin-bottom: 10px;
+    display: block;
 }
